@@ -31,4 +31,11 @@ public class TestAction extends AnAction {
             }
         }
     }
+
+    @Override
+    protected void buildDialog(Project project, PsiDirectory psiDirectory, CreateFileFromTemplateDialog.Builder builder) {
+        builder.setTitle("Auto Generate")
+                .addKind("Activity", PlatformIcons.CLASS_ICON, MODE_SINGLE_ACTIVITY)
+                .addKind("Fragment", PlatformIcons.CLASS_ICON, MODE_FRAGMENT);
+    }
 }
