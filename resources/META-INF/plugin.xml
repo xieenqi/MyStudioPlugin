@@ -29,6 +29,7 @@
   <extensions defaultExtensionNs="com.intellij">
     <!--扩展组件注册 。-->
     <!-- Add your extensions here -->
+    <defaultProjectTypeProvider type="Android"/>
   </extensions>
 
   <actions>
@@ -38,9 +39,9 @@
     <!--Name：就是最终插件在菜单上的名称-->
     <!--Description：对这个Action的描述信息-->
     <!--Groups：定义这个菜单选项出现的位置，这里选中CodeMenu(Code)，在Code菜单里面。-->
-    <action id="testPlugin.action" class="TestAction" text="TestAction-ok">
-      <add-to-group group-id="CodeMenu" anchor="first"/>
-    </action>
+    <!--<action id="testPlugin.action" class="TestAction" text="TestAction-ok">-->
+      <!--<add-to-group group-id="CodeMenu" anchor="first"/>-->
+    <!--</action>-->
   </actions>
 
 </idea-plugin>
