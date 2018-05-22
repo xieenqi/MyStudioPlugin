@@ -46,11 +46,13 @@
       <action id="pluginTwo" class="mvvPlugin.MyPluginTwo" text="Action-22two-Action" description="我的第二的插件">
           <add-to-group group-id="HelpMenu" anchor="first"/>
           <add-to-group group-id="GenerateGroup" anchor="last"/>
+          <add-to-group group-id="NewJavaSpecialFile" anchor="first"/>
+
       </action>
       <action id="pluginThree" class="mvvPlugin.MyPluginThtree" text="Action-333three-Action" description="我的第三个插件">
           <add-to-group group-id="CodeMenu" anchor="first"/>
           <add-to-group group-id="FileMenu" anchor="first"/>
-          <add-to-group group-id="NewJavaSpecialFile" anchor="last"/>
+          <add-to-group group-id="NewJavaSpecialFile" anchor="first"/>
       </action>
   </actions>
 
